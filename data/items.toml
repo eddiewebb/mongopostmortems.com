@@ -1,0 +1,86 @@
+[[items]]
+title = "Epic Games - Fortnite"
+image = "https://cdn2.unrealengine.com/Fortnite%2Fblog%2Fpostmortem-of-service-outage-4-12%2FBR04_News_Featured_Postmortem-of-Service-Outage-4-11-and-4-12-18_v2-1920x1080-2ffda468afaceac2fc7529fe847efc3a876e298d.jpg"
+thumb = "thumbnails/fortnite.png"
+alt = "Epic games - fortnite"
+description = "At a high level, the Mongo database that backs our account service experienced severe performance degradation, which in turn caused our account service to be unavailable from April 11th 20:44 UTC to April 12th 14:30 UTC.  This means all login requests, account creations, and queries for account information failed. "
+url = "https://www.epicgames.com/fortnite/en-US/news/postmortem-of-service-outage-4-12"
+
+[[items]]
+title = "Updown.io"
+image = "thumbnails/updown.png"
+thumb = "thumbnails/updown.png"
+alt = "Updown.io"
+description = "April 3rd at 2:30 am: updown.io primary database (MongoDB) server starts to answer queries about 200 times slower than usual, causing an almost total outage of the website and the monitoring daemons"
+url = "https://medium.com/@adrienjarthon/updown-io-incident-postmortem-f4707cd20091"
+
+[[items]]
+title = "Mailgun"
+image = "thumbnails/mongodb.png"
+thumb = "thumbnails/mongodb.png"
+alt = "mailgun"
+description = "On January 12th at 14:09 UTC, our engineers began responding to alerts for our click / open tracking services and primary MongoDB clusters located in one of our production regions. Within ten minutes, the engineering team had determined that our MongoDB secondary servers, which are used for most read operations, were under heavy load and failing to serve requests in a timely manner."
+url = "https://status.mailgun.com/incidents/p9nxxql8g9rh"
+
+
+
+[[items]]
+title = "Foursquare"
+image = "thumbnails/mongodb.png"
+thumb = "thumbnails/mongodb.png"
+alt = "Foursquare"
+description = "Foursquare recently suffered a total site outage for eleven hours. The outage was caused by unexpected uneven growth in their MongoDB database that their monitoring didn't detect. The system outage was prolonged when an attempt to add a partition didn't work due to fragmentation, and required taking the database offline to compact it. "
+url = "https://www.infoq.com/news/2010/10/4square_mongodb_outage"
+
+
+[[items]]
+title = "About You"
+image = "thumbnails/aboutyou.png"
+thumb = "thumbnails/aboutyou.png"
+alt = "About You"
+description = "The first real indication that the MongoDB was not a happy bunny came a couple of hours later at 10pm, when the sending of transactional mails slowed down to a crawl (our queue length alerts were doing overtime)."
+url = "https://medium.com/about-developer-blog/the-day-our-mongodb-went-down-bbbc9db1af66"
+
+
+[[items]]
+title = "logDNA"
+image = "thumbnails/logdna.png"
+thumb = "thumbnails/logdna.png"
+alt = "logDNA"
+description = "Our database (MongoDB) died approximately 5:19am UTC. The primary was stuck in a connection loop (out of threads for new connections). We got the alert, but it seemed to have self-healed thru migrating to its secondary. The primary resynced and everything appeared to be fine. The alerts turned back green. What we didn't realize was that between 5:44am and 8:20am UTC, there was a series of small hiccups (queue buildups, flushes, repeat) that we hadn't noticed. Rollbar complained about Mongo connection errors sporadically."
+url = "https://status.logdna.com/incidents/194mdmw4qjm9"
+
+
+[[items]]
+title = "Hugrid Theme"
+image = "thumbnails/mongodb.png"
+thumb = "thumbnails/mongodb.png"
+alt = "Hugrid Theme"
+description = ""
+url = "https://github.com/aerohub/hugrid"
+
+
+[[items]]
+title = "Hugrid Theme"
+image = "thumbnails/mongodb.png"
+thumb = "thumbnails/mongodb.png"
+alt = "Hugrid Theme"
+description = ""
+url = "https://github.com/aerohub/hugrid"
+
+
+[[items]]
+title = "Hugrid Theme"
+image = "thumbnails/mongodb.png"
+thumb = "thumbnails/mongodb.png"
+alt = "Hugrid Theme"
+description = ""
+url = "https://github.com/aerohub/hugrid"
+
+#[[items]]
+#title = "Hugrid Theme"
+#image = "images/full/2.png"
+#thumb = "thumbnails/"
+#alt = "Hugrid Theme"
+#description = ""
+#url = "https://github.com/aerohub/hugrid"
