@@ -35,7 +35,7 @@ jobs:
       - run:
           name: HUGO build for ${<<parameters.domain>>HOST}
           command: |
-            hugo -v -s ~/repo/src/ --destination /tmp/public -b https://${<<parameters.domain>>HOST}
+            hugo -v -s ~/repo/ --destination /tmp/public -b https://${<<parameters.domain>>HOST}
             ls /tmp/public
             if [ ! -f /tmp/public/index.html ];then
               echo "index.html not created, failing"
