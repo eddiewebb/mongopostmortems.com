@@ -14,10 +14,19 @@ alt = "Updown.io"
 description = "April 3rd at 2:30 am: updown.io primary database (MongoDB) server starts to answer queries about 200 times slower than usual, causing an almost total outage of the website and the monitoring daemons"
 url = "https://medium.com/@adrienjarthon/updown-io-incident-postmortem-f4707cd20091"
 
+
+[[items]]
+title = "Discord"
+image = "thumbnails/discord.png"
+thumb = "thumbnails/discord.png"
+alt = "Discord"
+description = "We are continuing to see impact to one of our MongoDB machines which is causing the recovery to be slow and is what kicked off this problem. Google has confirmed this is a problem with their storage layer and they are escalating internally to try to achieve resolution."
+url = "https://status.discordapp.com/incidents/cg7y5gbl80pg"
+
 [[items]]
 title = "Mailgun"
-image = "thumbnails/mongodb.png"
-thumb = "thumbnails/mongodb.png"
+image = "thumbnails/mailgun.png"
+thumb = "thumbnails/mailgun.png"
 alt = "mailgun"
 description = "On January 12th at 14:09 UTC, our engineers began responding to alerts for our click / open tracking services and primary MongoDB clusters located in one of our production regions. Within ten minutes, the engineering team had determined that our MongoDB secondary servers, which are used for most read operations, were under heavy load and failing to serve requests in a timely manner."
 url = "https://status.mailgun.com/incidents/p9nxxql8g9rh"
@@ -26,8 +35,8 @@ url = "https://status.mailgun.com/incidents/p9nxxql8g9rh"
 
 [[items]]
 title = "Foursquare"
-image = "thumbnails/mongodb.png"
-thumb = "thumbnails/mongodb.png"
+image = "thumbnails/foursquare.jpg"
+thumb = "thumbnails/foursquare.jpg"
 alt = "Foursquare"
 description = "Foursquare recently suffered a total site outage for eleven hours. The outage was caused by unexpected uneven growth in their MongoDB database that their monitoring didn't detect. The system outage was prolonged when an attempt to add a partition didn't work due to fragmentation, and required taking the database offline to compact it. "
 url = "https://www.infoq.com/news/2010/10/4square_mongodb_outage"
@@ -52,30 +61,22 @@ url = "https://status.logdna.com/incidents/194mdmw4qjm9"
 
 
 [[items]]
-title = "Hugrid Theme"
-image = "thumbnails/mongodb.png"
-thumb = "thumbnails/mongodb.png"
-alt = "Hugrid Theme"
-description = ""
-url = "https://github.com/aerohub/hugrid"
+title = "Close"
+image = "thumbnails/close.png"
+thumb = "thumbnails/close.png"
+alt = "Close"
+description = "Over the weekend, on Saturday September 19th, we upgraded some of our database servers from MongoDB 2.6.11 to MongoDB 3.0.6. We did this following recommendations from MongoDB's official release notes, documentation, and the consultant we engaged with, with a goal of leading to better performance and stability. Unfortunately, it failed at that quite spectacularly and we did a bad job stress testing the upgraded version before sending production traffic to it."
+url = "https://status.close.com/incidents/t43lb0yf5h4z"
 
 
 [[items]]
-title = "Hugrid Theme"
-image = "thumbnails/mongodb.png"
-thumb = "thumbnails/mongodb.png"
-alt = "Hugrid Theme"
-description = ""
-url = "https://github.com/aerohub/hugrid"
+title = "anynines"
+image = "thumbnails/anynines.png"
+thumb = "thumbnails/anynines.png"
+alt = "anynines"
+description = "We're investigating some surround systems and MongoDB services that are currently still not available"
+url = "https://status.anynines.com/incidents/p0s8sjd0j11z"
 
-
-[[items]]
-title = "Hugrid Theme"
-image = "thumbnails/mongodb.png"
-thumb = "thumbnails/mongodb.png"
-alt = "Hugrid Theme"
-description = ""
-url = "https://github.com/aerohub/hugrid"
 
 #[[items]]
 #title = "Hugrid Theme"
