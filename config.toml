@@ -1,10 +1,10 @@
 # Site settings
-baseurl = "http://example.org/"
+baseurl = "https://mongopostmortems.com/"
 languageCode = "en-us"
 title = "MongoDB Postmortems"
 theme = "hugrid"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-XXXXXXXX-Y"
+#googleAnalytics = "UA-XXXXXXXX-Y"
 
 contentdir = "content"
 datadir = "data"
@@ -26,7 +26,7 @@ publishdir = "public"
     buttontext = "Read full postmortem"
 
     # Footer text
-    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [me](https://github.com/aerohub)"
+    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [me](https://github.com/eddiewebb)"
 
     # add extra-css
     # custom_css = ['css/extra1.css', 'css/extra2.css']
